@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wraper {
+  width: 100vw;
+  height: 100vh;
+  background: #0e2340;
+}
+
+.logoName {
+  text-align: center;
+  color: white;
+}
