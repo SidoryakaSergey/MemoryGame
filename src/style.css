@@ -20,13 +20,13 @@
   height: 620px;
   border: royalblue 2px solid;
   border-radius: 5px;
-  perspective: 1000;
 }
 
 .flipper {
   position: relative;
   transition: 1s;
   transform-style: preserve-3d;
+  perspective: 1000px;
 }
 
 .card {
