@@ -1,16 +1,10 @@
 import './style.css';
-import img from './img/spider.jpg';
-console.log(img);
+import imgCover from './img/cover.png';
+import imgN1 from './img/sisigami.png';
 
-const myimg = document.createElement('div');
-myimg.style.background = `url(${img}) no-repeat`;
-myimg.style.width = '200px';
-myimg.style.height = '180px';
+const fliper = document.querySelector('.flipper');
 
-const wraper = document.querySelector('#wraper');
-wraper.append(myimg);
-myimg.addEventListener('click', (e) => {
-  console.log(e);
-
-  myimg.style.transform = 'rotate(0.5)';
+fliper.addEventListener('click', (e) => {
+  console.log(e.target);
+  e.target.style.transform = 'rotateY(180deg)';
 });
