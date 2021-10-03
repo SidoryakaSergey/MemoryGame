@@ -1,6 +1,9 @@
-import './style.css';
-import imgCover from './img/cover.png';
-import imgN1 from './img/sisigami.png';
+console.log('OK');
+const imgCover = new Image(200, 200);
+imgCover.src = '/img/cover.png';
+const imgN1 = new Image(200, 200);
+imgN1.src = '/img/haku.png';
+console.log(imgCover);
 
 const fliper = document.querySelector('.flipper');
 const cover = document.createElement('div');
