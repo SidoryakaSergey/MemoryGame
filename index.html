@@ -10,8 +10,30 @@
   <body>
     <div id="wraper" class="wraper">
       <h1 class="logoName">Memory</h1>
-      <div id="board" class="board">
-        <div class="flipper"></div>
+      <div class="game">
+        <div class="options-game">
+          <div class="options-game_table">
+            <select name="select1">
+              <option selected value="select1-s1">3</option>
+              <option value="select1-s2">4</option>
+              <option value="select1-s3">5</option>
+              <option value="select1-s4">6</option>
+            </select>
+            Х
+            <select name="select1">
+              <option selected value="select1-s1">3</option>
+              <option value="select1-s2">4</option>
+              <option value="select1-s3">5</option>
+              <option value="select1-s4">6</option>
+            </select>
+            <div class="options-game_button">
+              <span>Выбрать</span>
+            </div>
+          </div>
+        </div>
+        <div id="board" class="board">
+          <div class="flipper"></div>
+        </div>
       </div>
     </div>
     <script src="./js/index.js"></script>

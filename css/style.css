@@ -14,7 +14,12 @@
   color: white;
 }
 
+.game {
+  display: flex;
+}
+
 .board {
+  display: flex;
   margin: 0 auto;
   width: 620px;
   height: 620px;
@@ -32,8 +37,8 @@
 .card {
   width: 200px;
   height: 200px;
-  border: green solid 1px;
-  border-radius: 5px;
+  border: green solid 4px;
+  border-radius: 10px;
   overflow: hidden;
   margin: 5px;
   background-size: cover;
@@ -42,4 +47,17 @@
   top: 0;
   left: 0;
   backface-visibility: hidden;
+}
+
+.options-game_table {
+  margin: 100px;
+}
+
+.options-game_button {
+  margin: 10px;
+  padding: 10px;
+  border: green solid 4px;
+  border-radius: 10px;
+  width: 60px;
+  cursor: pointer;
 }
