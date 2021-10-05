@@ -49,15 +49,29 @@
   backface-visibility: hidden;
 }
 
+.options-game {
+  margin: 50px;
+}
+
 .options-game_table {
-  margin: 100px;
 }
 
 .options-game_button {
+  text-align: center;
+  background-color: aqua;
   margin: 10px;
   padding: 10px;
   border: green solid 4px;
   border-radius: 10px;
   width: 60px;
   cursor: pointer;
+}
+
+.options-game_timer {
+  text-align: center;
+  color: #777;
+}
+
+.red {
+  background-color: lightcoral;
 }
