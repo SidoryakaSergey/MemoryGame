@@ -1,7 +1,7 @@
 console.log('OK');
-const imgCover = new Image(200, 200);
+const imgCover = new Image(144, 204);
 imgCover.src = '/img/cover.png';
-const imgN1 = new Image(200, 200);
+const imgN1 = new Image(144, 204);
 imgN1.src = '/img/card1.png';
 
 const fliper = document.querySelectorAll('.flipper');

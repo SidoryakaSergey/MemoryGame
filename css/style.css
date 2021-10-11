@@ -6,7 +6,8 @@
 .wraper {
   width: 100vw;
   height: 100vh;
-  background: #0e2340;
+  background: #a9c0e2;
+  background-image: url('/img/fon.jpg');
 }
 
 .logoName {
@@ -35,10 +36,10 @@
 }
 
 .card {
-  width: 200px;
-  height: 200px;
-  border: green solid 4px;
-  border-radius: 10px;
+  width: 144px;
+  height: 204px;
+  /* border: green solid 4px;
+  border-radius: 10px; */
   overflow: hidden;
   margin: 5px;
   background-size: cover;
