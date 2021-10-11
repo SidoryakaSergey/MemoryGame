@@ -2,7 +2,7 @@ console.log('OK');
 const imgCover = new Image(200, 200);
 imgCover.src = '/img/cover.png';
 const imgN1 = new Image(200, 200);
-imgN1.src = '/img/haku.png';
+imgN1.src = '/img/card1.png';
 
 const fliper = document.querySelectorAll('.flipper');
 const cover = document.createElement('div');
